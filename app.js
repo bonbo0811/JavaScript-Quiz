@@ -29,15 +29,47 @@ const quiz_Game =[
     },
 ];
 
+const quiz_car =[
+    {
+        question : 'ゲーム史上最も売れたゲーム機は次の内どれ？',
+        answers : [
+            'スーパーファミコン',
+            'プレイステーション２',
+            'ファミリーコンピューター',
+            'ニンテンドーDS'
+        ],
+        correct : 'ニンテンドーDS',
+    },{
+        question : 'ポケットモンスターを制作したゲーム会社は次の内どれ？',
+        answers : [
+            '任天堂',
+            'エニックス',
+            'ゲームフリーク',
+            'カプコン'
+        ],
+        correct : 'ゲームフリーク',
+    },{
+        question : 'ドラゴンクエスト５の隠しボスは次の内どれ？',
+        answers : [
+            'ゾーマ',
+            'デスタムーア',
+            'ダークドレアム',
+            'エスターク'
+        ],
+        correct : 'エスターク',
+    },
+];
+
 let quizIndex = 0;
-const quizLength = quiz_Game.length;
+const quizLength_game = quiz_Game.length;
+const quizLength_car = quiz_car.length;
 let score = 0;
 
 let buttonlength = document.getElementsByTagName('button').length;
 
 // クイズの問題文、選択肢を定義
 const setQuiz = () => {
-    document.getElementById('js-question-1').textContent = quiz_Game[quizIndex].question;
+    document.getElementById('js-question-game').textContent = quiz_Game[quizIndex].question;
     let buttonIndex = 0;
 
     while(buttonIndex < buttonlength){
@@ -59,12 +91,12 @@ const clickHandler = (e) => {
 
     quizIndex++;
 
-    if(quizIndex < quizLength){
+    if(quizIndex < quizLength_game){
         // 次の問題へ移行
         setQuiz();
     }else{
         // クイズ終了
-        window.alert('クイズ終了。　あなたの正解数は' + score + '/' + quizLength + 'です！');
+        window.alert('クイズ終了。　あなたの正解数は' + score + '/' + quizLength_game + 'です！');
     }
 };
 

@@ -1,24 +1,18 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
-    <title>JavaScript-Quiz</title>
-</head>
+<?php
+    include_once('./Parts/link.php')
+?>
+
 <body>
 
     <!-- As a link -->
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-            <a class="fw-bold navbar-brand ms-3" href="../index.php">JavaScript-Quiz</a>
+            <a class="fw-bold navbar-brand ms-3" href="index.php">JavaScript-Quiz</a>
         </div>
     </nav>
     
     <div class="container">
-        <div id="js-question-1" class="mt-4 alert alert-primary" role="alert">
+        <div id="js-question-car" class="mt-4 alert alert-primary" role="alert">
             A simple primary alert—check it out!
         </div>
         
