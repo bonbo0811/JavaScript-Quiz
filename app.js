@@ -1,4 +1,4 @@
-const quiz =[
+const quiz_Game =[
     {
         question : 'ゲーム史上最も売れたゲーム機は次の内どれ？',
         answers : [
@@ -30,19 +30,19 @@ const quiz =[
 ];
 
 let quizIndex = 0;
-const quizLength = quiz.length;
+const quizLength = quiz_Game.length;
 let score = 0;
 
 let buttonlength = document.getElementsByTagName('button').length;
 
 // クイズの問題文、選択肢を定義
 const setQuiz = () => {
-    document.getElementById('js-question-1').textContent = quiz[quizIndex].question;
+    document.getElementById('js-question-1').textContent = quiz_Game[quizIndex].question;
     let buttonIndex = 0;
 
     while(buttonIndex < buttonlength){
         // ココに命令文
-        document.getElementsByTagName('button')[buttonIndex].textContent = quiz[quizIndex].answers[buttonIndex];
+        document.getElementsByTagName('button')[buttonIndex].textContent = quiz_Game[quizIndex].answers[buttonIndex];
         buttonIndex++;
     }
 };
@@ -50,7 +50,7 @@ const setQuiz = () => {
 setQuiz();
 
 const clickHandler = (e) => {
-    if(quiz[quizIndex].correct === e.target.textContent) {
+    if(quiz_Game[quizIndex].correct === e.target.textContent) {
         window.alert('正解！');
         score++;
     } else {
