@@ -30,7 +30,20 @@
                 <button type="button" id="js-btn-4" class="btn btn-primary">Primary</button>
             </div>
         </div>
+        <div class="d-flex justify-content-center">
+            <div id="success" class="ms-2 me-2 mt-4 star">
+                <img src="./images/bad.jpeg" alt="不正解の星">
+            </div>
+            <div id="success" class="ms-2 me-2 mt-4 star">
+                <img src="./images/bad.jpeg" alt="不正解の星">
+            </div>
+            <div id="success" class="ms-2 me-2 mt-4 star">
+                <img src="./images/bad.jpeg" alt="不正解の星">
+            </div>
+        </div>
     </div>
+
+
 
 <script src="app.js"></script>
 </body>

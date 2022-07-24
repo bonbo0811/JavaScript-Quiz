@@ -84,6 +84,7 @@ setQuiz();
 const clickHandler = (e) => {
     if(quiz_Game[quizIndex].correct === e.target.textContent) {
         window.alert('正解！');
+        document.getElementsByTagName('img')[score].src = './images/good.png';
         score++;
     } else {
         window.alert('不正解');
