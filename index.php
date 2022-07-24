@@ -11,9 +11,9 @@
     </nav>
 
     <div class="list-group col-md-7 mt-4 m-auto">
-        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        <span class="list-group-item list-group-item-action active list-img" aria-current="true">
             クイズ一覧
-        </a>
+        </span>
         <a href="game-quiz.php" class="list-group-item list-group-item-action ">ゲーム関係</a>
         <a href="car-quiz.php" class="list-group-item list-group-item-action">車関係</a>
         <a href="#" class="list-group-item list-group-item-action">comming soon...</a>
