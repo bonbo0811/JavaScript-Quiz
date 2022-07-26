@@ -12,7 +12,11 @@
     </nav>
     
     <div class="container">
-        <div id="js-question-game" class="mt-4 alert alert-primary" role="alert">
+    <div class="col-md-7 mt-5 m-auto text-center">
+            <h5>Quiz : : ゲーム</h5>
+        </div>
+
+        <div id="js-question-game" class="mt-4 alert alert-primary question" role="alert">
             A simple primary alert—check it out!
         </div>
         
