@@ -5,7 +5,7 @@
 <body>
     <!-- As a link -->
     <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid title">
             <a class="fw-bold navbar-brand ms-3" href="index.php">JavaScript-Quiz</a>
         </div>
     </nav>
@@ -18,11 +18,11 @@
         <span class="list-group-item list-group-item-action active list-img" aria-current="true">
             クイズ一覧
         </span>
-        <a href="quiz-games.php" class="list-group-item list-group-item-action ">ゲーム</a>
         <a href="quiz-fashions.php" class="list-group-item list-group-item-action">ファッション</a>
+        <a href="quiz-games.php" class="list-group-item list-group-item-action ">ゲーム</a>
         <a href="quiz-movies.php" class="list-group-item list-group-item-action">映画</a>
-        <a href="#" class="list-group-item list-group-item-action">漫画</a>
-        <a href="quiz-cars.php" class="list-group-item list-group-item-action">車</a>
+        <a href="quiz-comics.php" class="list-group-item list-group-item-action">マンガ</a>
+        <a href="quiz-foods.php" class="list-group-item list-group-item-action">食べ物</a>
     </div>
 </body>
 </html>

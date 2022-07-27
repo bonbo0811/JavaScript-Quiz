@@ -46,6 +46,9 @@
                 <img src="./images/bad.jpeg" alt="不正解の星">
             </div>
         </div>
+        <div class="col-md-7 m-auto mt-4 text-center">
+            <a href="index.php">クイズ一覧へ戻る</a>
+        </div> 
     </div>
 
 

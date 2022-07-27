@@ -20,14 +20,14 @@ const quiz_game =[
         ],
         correct : 'ゲームフリーク',
     },{
-        question : 'ドラゴンクエスト５の隠しボスは次の内どれ？',
+        question : 'ドラゴンクエスト（DQ）の主人公の役割が【勇者】ではない作品は次の内どれ？',
         answers : [
-            'ゾーマ',
-            'デスタムーア',
-            'ダークドレアム',
-            'エスターク'
+            'DQ 1',
+            'DQ 6',
+            'DQ 5',
+            'DQ 3'
         ],
-        correct : 'エスターク',
+        correct : 'DQ 5',
     },
 ];
 
@@ -93,10 +93,74 @@ const quiz_movie =[
     },
 ];
 
+const quiz_comic =[
+    {
+        question : 'ハンディキャップを背負う誰よりも優しい主人公が、人生で初めて友達を得て、王さまになるべく世界を冒険する物語は？',
+        answers : [
+            'チェンソーマン',
+            'HUNTER × HUNTER',
+            '大様ランキング',
+            'キン肉マン'
+        ],
+        correct : '大様ランキング',
+    },{
+        question : '中高一貫校を舞台に、少し不思議な高校生たちのかわいい日常を描き、いくつもの賞を受賞したのは？',
+        answers : [
+            '呪術廻戦',
+            '波よ聞いてくれ',
+            'ブルーピリオド',
+            '夢中さ、君に。'
+        ],
+        correct : '夢中さ、君に。',
+    },{
+        question : '『鋼の錬金術師』、『銀の匙』で有名な作者は誰？',
+        answers : [
+            '荒川弘',
+            '諌山創創',
+            '堀越耕平',
+            '福本伸行'
+        ],
+        correct : '荒川弘',
+    },
+];
+
+const quiz_food =[
+    {
+        question : '和牛には4種類あるが、そのうち黒毛和牛は何％程度？',
+        answers : [
+            '98パーセント',
+            '68パーセント',
+            '36パーセント',
+            '8パーセント'
+        ],
+        correct : '98パーセント',
+    },{
+        question : '日本で初めてラーメンが作られたのはいつ頃でしょうか？',
+        answers : [
+            '昭和時代',
+            '室町時代',
+            '江戸時代',
+            '大正時代'
+        ],
+        correct : '室町時代',
+    },{
+        question : '次のうち日本生まれのパスタ料理はどれでしょうか？',
+        answers : [
+            'ナポリタン',
+            'イカスミパスタ',
+            'カルボナーラ',
+            'アラビアータ'
+        ],
+        correct : 'ナポリタン',
+    },
+];
+
 const getQuiz = {
     'js-question-game':  quiz_game,
     'js-question-fashion': quiz_fashion,
     'js-question-movie': quiz_movie,
+    'js-question-comic': quiz_comic,
+    'js-question-food': quiz_food,
 };
 
 let quizIndex = 0;
