@@ -13,10 +13,10 @@
     
     <div class="container">
     <div class="col-md-7 mt-5 m-auto text-center">
-            <h5>Quiz : : ゲーム</h5>
+            <h5>Quiz : : マンガ</h5>
         </div>
 
-        <div id="js-question-game" class="mt-4 alert alert-primary question" role="alert">
+        <div id="js-question-comic" class="mt-4 alert alert-primary question" role="alert">
             A simple primary alert—check it out!
         </div>
         
