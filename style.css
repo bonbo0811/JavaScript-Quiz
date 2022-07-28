@@ -6,3 +6,7 @@
 .star img{
     width: 100%;
 }
+
+.quiz-list{
+    max-width: 600px;
+}
