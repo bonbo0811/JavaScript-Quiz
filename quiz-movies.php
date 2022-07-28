@@ -4,16 +4,16 @@
 
 <body>
 
-    <!-- As a link -->
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="fw-bold navbar-brand ms-3" href="index.php">JavaScript-Quiz</a>
-        </div>
-    </nav>
+    <?php
+        include_once('./Parts/nav.php');
+    ?>
     
     <div class="container">
-    <div class="col-md-7 mt-5 m-auto text-center">
-            <h5>Quiz : : 映画</h5>
+        <div class="col-md-7 mt-5 m-auto text-center">
+            <h5>
+                <img src="./images/movie_image.jpeg" width="25" height="25" class="me-1" alt="イメージアイコン">
+                Quiz : : 映画
+            </h5>
         </div>
 
         <div id="js-question-movie" class="mt-4 alert alert-primary question" role="alert">
@@ -34,7 +34,8 @@
                 <button type="button" id="js-btn-4" class="btn btn-primary">Primary</button>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
+
+        <div id="quiz-sters" class="d-flex justify-content-center">
             <div id="success" class="ms-2 me-2 mt-4 star">
                 <img src="./images/bad.jpeg" alt="不正解の星">
             </div>
@@ -45,12 +46,11 @@
                 <img src="./images/bad.jpeg" alt="不正解の星">
             </div>
         </div>
+
         <div class="col-md-7 m-auto mt-4 text-center">
             <a href="index.php">クイズ一覧へ戻る</a>
         </div> 
     </div>
-
-
 
 <script src="app.js"></script>
 </body>

@@ -116,7 +116,7 @@ const quiz_comic =[
         question : '『鋼の錬金術師』、『銀の匙』で有名な作者は誰？',
         answers : [
             '荒川弘',
-            '諌山創創',
+            '諌山創',
             '堀越耕平',
             '福本伸行'
         ],
@@ -187,7 +187,7 @@ setQuiz();
 const clickHandler = (e) => {
     if(getQuiz[$question][quizIndex].correct === e.target.textContent) {
         window.alert('正解！');
-        document.getElementsByTagName('img')[score].src = './images/good.png';
+        document.getElementById('quiz-sters').getElementsByTagName('img')[score].src = './images/good.png';
         score++;
     } else {
         window.alert('不正解');
