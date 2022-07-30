@@ -11,12 +11,12 @@
     <div class="container">
         <div class="col-md-7 mt-5 m-auto text-center">
             <h5>
-                <img src="./images/movie_image.jpeg" width="25" height="25" class="me-1" alt="イメージアイコン">
-                Quiz : : 映画
+                <img src="./images/englishword.jpeg" width="25" height="25" class="me-1" alt="イメージアイコン">
+                Quiz : : 英単語
             </h5>
         </div>
 
-        <div id="js-question-movie" class="mt-4 alert alert-primary question" role="alert">
+        <div id="js-question-englishwords" class="mt-4 alert alert-primary question" role="alert">
             A simple primary alert—check it out!
         </div>
         
@@ -46,7 +46,6 @@
                 <img src="./images/bad.jpeg" alt="不正解の星">
             </div>
         </div>
-
         <div class="col-md-7 m-auto mt-4 text-center">
             <a href="index.php">クイズ一覧へ戻る</a>
         </div> 

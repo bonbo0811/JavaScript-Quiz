@@ -51,6 +51,7 @@
         </div> 
     </div>
 
-<script src="app.js"></script>
+<script src="./JavaScript/quiz.js"></script>
+<script src="./JavaScript/app.js"></script>
 </body>
 </html>

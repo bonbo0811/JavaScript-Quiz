@@ -155,61 +155,74 @@ const quiz_food =[
     },
 ];
 
+const quiz_kotowaza =[
+    {
+        question : '石の上にも 【 】 年',
+        answers : [
+            '３',
+            '５',
+            '２',
+            '９'
+        ],
+        correct : '３',
+    },{
+        question : '【 】 に説法',
+        answers : [
+            '僧侶',
+            '七福神',
+            '馬',
+            '釈迦'
+        ],
+        correct : '釈迦',
+    },{
+        question : '【 】 物の上手なれ',
+        answers : [
+            '努力こそ',
+            '好きこそ',
+            '才こそ',
+            '真似こそ'
+        ],
+        correct : '好きこそ',
+    },
+];
+
+const quiz_english =[
+    {
+        question : '【 whole 】 の意味は',
+        answers : [
+            '一部の',
+            '完全な',
+            '全体の',
+            'すこしの'
+        ],
+        correct : '全体の',
+    },{
+        question : '【 capital 】 の意味は',
+        answers : [
+            '完全な',
+            '独立した',
+            '一部の',
+            '主要な'
+        ],
+        correct : '主要な',
+    },{
+        question : '【 generous 】 の意味は',
+        answers : [
+            '気前がいい',
+            '屈強な',
+            '一般的な',
+            '我慢強い'
+        ],
+        correct : '気前がいい',
+    },
+];
+
 const getQuiz = {
     'js-question-game':  quiz_game,
     'js-question-fashion': quiz_fashion,
     'js-question-movie': quiz_movie,
     'js-question-comic': quiz_comic,
     'js-question-food': quiz_food,
+    'js-question-kotowaza': quiz_kotowaza,
+    'js-question-englishwords': quiz_english,
 };
-
-let quizIndex = 0;
-const quizLength_game = getQuiz[$question].length;
-let score = 0;
-
-let buttonlength = document.getElementsByTagName('button').length;
-
-
-// クイズの問題文、選択肢を定義
-const setQuiz = () => {
-    document.getElementById($question).textContent = getQuiz[$question][quizIndex].question;
-    let buttonIndex = 0;
-
-    while(buttonIndex < buttonlength){
-        // ココに命令文
-        document.getElementsByTagName('button')[buttonIndex].textContent = getQuiz[$question][quizIndex].answers[buttonIndex];
-        buttonIndex++;
-    }
-};
-
-setQuiz();
-
-const clickHandler = (e) => {
-    if(getQuiz[$question][quizIndex].correct === e.target.textContent) {
-        window.alert('正解！');
-        document.getElementById('quiz-sters').getElementsByTagName('img')[score].src = './images/good.png';
-        score++;
-    } else {
-        window.alert('不正解');
-    }
-
-    quizIndex++;
-
-    if(quizIndex < quizLength_game){
-        // 次の問題へ移行
-        setQuiz();
-    }else{
-        // クイズ終了
-        window.alert('クイズ終了。　あなたの正解数は' + score + '/' + quizLength_game + 'です！');
-    }
-};
-
-// ボタンがクリックされたら正誤判定
-let handleIndex = 0;
-
-while (handleIndex < buttonlength) {
-        document.getElementsByTagName('button')[handleIndex].addEventListener('click',(e) => {
-        clickHandler(e);
-    });
-    handleIndex++;
-}

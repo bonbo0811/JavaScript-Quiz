@@ -35,6 +35,18 @@
             <img src="images/food_image.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
             食べ物
         </a>
+        <a href="quiz-kotowaza.php" class="list-group-item list-group-item-action">
+            <img src="images/kotowaza.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
+            ことわざ
+        </a>
+        <a href="quiz-englishwords.php" class="list-group-item list-group-item-action">
+            <img src="images/englishword.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
+            英単語
+        </a>
+        <a href="quiz-manners.php" class="list-group-item list-group-item-action">
+            <img src="images/manner.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
+            一般マナー
+        </a>
     </div>
 </body>
 </html>
