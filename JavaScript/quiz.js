@@ -217,6 +217,37 @@ const quiz_english =[
     },
 ];
 
+const quiz_manner =[
+    {
+        question : '個人宅を訪れる時、アイスクリーム・生ものなどの手土産を渡すタイミングはどこ？',
+        answers : [
+            '玄関先で',
+            'ソファーに座る前に',
+            '帰り際に',
+            '居間に通される時'
+        ],
+        correct : '玄関先で',
+    },{
+        question : '親族などの子供が入園・入学する際のお祝いを贈るタイミングはどこ？',
+        answers : [
+            '式の当日',
+            '1ヶ月前から当日',
+            '終えての1ヶ月間',
+            '終えての1ヶ月後'
+        ],
+        correct : '1ヶ月前から当日',
+    },{
+        question : '会社でミスをした場合の謝り方として正しいのはどれ？',
+        answers : [
+            'すいません',
+            'ごめんなさい',
+            '失礼いたしました',
+            '申し訳ございません'
+        ],
+        correct : '申し訳ございません',
+    },
+];
+
 const getQuiz = {
     'js-question-game':  quiz_game,
     'js-question-fashion': quiz_fashion,
@@ -225,4 +256,5 @@ const getQuiz = {
     'js-question-food': quiz_food,
     'js-question-kotowaza': quiz_kotowaza,
     'js-question-englishwords': quiz_english,
+    'js-question-manner': quiz_manner,
 };
