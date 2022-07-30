@@ -16,7 +16,7 @@
             </h5>
         </div>
 
-        <div id="js-question-comic" class="mt-4 alert alert-primary question" role="alert">
+        <div id="js-question-manner" class="mt-4 alert alert-primary question" role="alert">
             A simple primary alert—check it out!
         </div>
         
