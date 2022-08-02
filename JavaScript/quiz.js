@@ -248,6 +248,100 @@ const quiz_manner =[
     },
 ];
 
+const quiz_kanji =[
+    {
+        question : '【真摯】の読み方は？　意味 : まじめで、ひたむきなさま。',
+        answers : [
+            'まき',
+            'しんし',
+            'しんけん',
+            'まけん'
+        ],
+        correct : 'しんし',
+    },{
+        question : '【拵える】の読み方は？　意味 : 物の出来上がった状態。作り。',
+        answers : [
+            'したがえる',
+            'こらえる',
+            'こしらえる',
+            'ととのえる'
+        ],
+        correct : 'こしらえる',
+    },{
+        question : '【僭越】の読み方は？　意味 : 自分の身分・地位を越えて、出過ぎた事をすること。そういう態度。',
+        answers : [
+            'いつだつ',
+            'しゃしゃり',
+            'でしゃり',
+            'せんえつ'
+        ],
+        correct : 'せんえつ',
+    },
+];
+
+const quiz_estate =[
+    {
+        question : '不動産の広告で見かける「徒歩1分」とは、距離にするとどのくらい？',
+        answers : [
+            '160 m',
+            '80 m',
+            '240 m',
+            '100 m'
+        ],
+        correct : '80 m',
+    },{
+        question : 'マンションの耐用年数は何年？',
+        answers : [
+            '47 年',
+            '55 年',
+            '22 年',
+            '63 年'
+        ],
+        correct : '47 年',
+    },{
+        question : '不動産会社はなぜ休みが水曜日のことが多い？',
+        answers : [
+            '伝統的な文化だから',
+            '営業の都合',
+            '経理状の都合',
+            '縁起を気にしている'
+        ],
+        correct : '縁起を気にしている',
+    },
+];
+
+const quiz_inventment =[
+    {
+        question : '通常の株式投資と比べ、投資信託を購入する場合のメリットは？',
+        answers : [
+            '利益が出やすい',
+            'かかる税金が安い',
+            '株式よりも少額でできる',
+            'カスタマイズしやすい'
+        ],
+        correct : '株式よりも少額でできる',
+    },{
+        question : '金融庁が2014年から始めた投資で税金がかからなくなる制度の名前は？',
+        answers : [
+            'NISA',
+            'ISA',
+            'NESTA',
+            'NASA'
+        ],
+        correct : 'NISA',
+    },{
+        question : '投資で得た利益に対し、更に利益が付くシステムの事を何という？',
+        answers : [
+            '益循環',
+            '回転',
+            '反復利益',
+            '複利',
+        ],
+        correct : '複利',
+    },
+];
+
+
 const getQuiz = {
     'js-question-game':  quiz_game,
     'js-question-fashion': quiz_fashion,
@@ -257,4 +351,7 @@ const getQuiz = {
     'js-question-kotowaza': quiz_kotowaza,
     'js-question-englishwords': quiz_english,
     'js-question-manner': quiz_manner,
+    'js-question-kanji': quiz_kanji,
+    'js-question-estate': quiz_estate,
+    'js-question-inventment': quiz_inventment,
 };
