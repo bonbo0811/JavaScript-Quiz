@@ -11,12 +11,12 @@
     <div class="container">
         <div class="col-md-7 mt-5 m-auto text-center">
             <h5>
-                <img src="./images/englishword.jpeg" width="25" height="25" class="me-1" alt="イメージアイコン">
-                Quiz : : 英単語
+                <img src="./images/comic_image.jpeg" width="25" height="25" class="me-1" alt="イメージアイコン">
+                Quiz : : 漢字
             </h5>
         </div>
 
-        <div id="js-question-englishwords" class="mt-4 alert alert-primary question" role="alert">
+        <div id="js-question-kanji" class="mt-4 alert alert-primary question" role="alert">
             A simple primary alert—check it out!
         </div>
         
