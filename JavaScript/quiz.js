@@ -341,6 +341,68 @@ const quiz_inventment =[
     },
 ];
 
+const quiz_science =[
+    {
+        question : '虫眼鏡で光を集めたとき、一番燃えやすい紙の色は次の内どの色？',
+        answers : [
+            '赤色の紙',
+            '黄色の紙',
+            '黒色の紙',
+            '白色の紙'
+        ],
+        correct : '黒色の紙',
+    },{
+        question : '二酸化炭素で満たしたペットボトルに少量の水を入れて振るとペットボトルはどうなる？',
+        answers : [
+            '膨らむ',
+            'へこむ',
+            '変化しない',
+            'かたくなる'
+        ],
+        correct : 'へこむ',
+    },{
+        question : '河原の下流に落ちている石は次の内どのような形？',
+        answers : [
+            '丸い形',
+            '三角の形',
+            '四角の形',
+            '不均等の形',
+        ],
+        correct : '丸い形',
+    },
+];
+
+const quiz_math =[
+    {
+        question : 'レンガの重さは1kgに「レンガの重さの半分」を足したものです。 レンガの重さは？　< ヒント : レンガの重さ = 1kg + 1/2レンガの重さ >',
+        answers : [
+            '0.5kg',
+            '1kg',
+            '2kg',
+            '4kg'
+        ],
+        correct : '2kg',
+    },{
+        question : '1 ～ 9 までカードが1枚ずつあります。これをA君、B君、C君に配ったところ合計が同じになりました。　A君は 1 、B君は 2 と 4 を持っています。C君は何を持っている？',
+        answers : [
+            '5・7・9',
+            '3・5・7',
+            '3・5・8',
+            '3・7・9'
+        ],
+        correct : '3・5・7',
+    },{
+        question : '10 段の階段があります。 「3歩上がったら2歩下がる」というルールで階段を上るとき、一番上までつくのに何歩必要でしょうか？',
+        answers : [
+            '23歩', 
+            '50歩',
+            '46歩',
+            '38歩',
+        ],
+        correct : '38歩',
+    },
+];
+
 
 const getQuiz = {
     'js-question-game':  quiz_game,
@@ -354,4 +416,6 @@ const getQuiz = {
     'js-question-kanji': quiz_kanji,
     'js-question-estate': quiz_estate,
     'js-question-inventment': quiz_inventment,
+    'js-question-science': quiz_science,
+    'js-question-math': quiz_math,
 };
