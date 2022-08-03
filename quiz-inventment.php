@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="col-md-7 m-auto mt-4 text-center">
-            <a href="index.php">クイズ一覧へ戻る</a>
+            <a href="javascript:history.back()">クイズ一覧へ戻る</a>
         </div> 
     </div>
 

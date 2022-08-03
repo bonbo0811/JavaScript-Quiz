@@ -55,7 +55,7 @@
                     ことわざ
                 </a>
                 <a href="quiz-kanji.php" class="list-group-item list-group-item-action">
-                    <img src="images/kotowaza.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
+                    <img src="images/kanji.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
                     漢字
                 </a>
             </div>
@@ -66,11 +66,11 @@
                     一般マナー
                 </a>
                 <a href="quiz-estate.php" class="list-group-item list-group-item-action">
-                    <img src="images/manner.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
+                    <img src="images/estate.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
                     不動産
                 </a>
                 <a href="quiz-inventment.php" class="list-group-item list-group-item-action">
-                    <img src="images/manner.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
+                    <img src="images/inventment.jpeg" alt="アイコン" width="25" height="25" class="d-inline-block align-text-top ms-2">
                     投資
                 </a>
             </div>
